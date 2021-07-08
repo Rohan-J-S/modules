@@ -1,6 +1,7 @@
 from speech_recognition import *
 def audio_input():
-
+    """
+#return value is the string format of the voice input"""
     try:
         r = Recognizer()
         with Microphone() as source:
@@ -12,5 +13,5 @@ def audio_input():
         print("please repeat your input")
         return(audio_input())
 
-#return value is the string format of the voice input
+
 print(audio_input())
