@@ -1,7 +1,9 @@
 from matplotlib import pyplot
 
 def plot(l_x,l_y,name,x_axis,y_axis,title):
-
+    """input params: (list of x axis values , list of y axis values , name of graph , x axis quantity name , y axis quantity name , title)
+    return value: None
+    output: graph plot"""
   
     fig = pyplot.figure()
     fig.patch.set_facecolor((0,0.8,0.75,0.8))
