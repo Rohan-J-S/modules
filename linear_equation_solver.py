@@ -57,3 +57,5 @@ final_2 = identity(final , 2)
 
 for temp in final_2:
     print(temp)
+for x in range(len(final_2)):
+    print('x',x , ' = ' , final_2[x][len(l[0])-1] , sep = '')
